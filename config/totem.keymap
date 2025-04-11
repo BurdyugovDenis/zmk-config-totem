@@ -32,7 +32,7 @@
 
         commanda {
             bindings = <&kp LG(A)>;
-            key-positions = <10 11>;
+            key-positions = <13 24>;
         };
 
         backspase {
@@ -68,8 +68,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <180>;
+            quick-tap-ms = <180>;
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
