@@ -44,6 +44,11 @@
             bindings = <&kp LA(SPACE)>;
             key-positions = <32 33>;
         };
+
+        delete {
+            bindings = <&kp LS(BACKSPACE)>;
+            key-positions = <12 13 14>;
+        };
     };
 
     behaviors {
